@@ -11,6 +11,31 @@
     <script src="https://cdn.jsdelivr.net/npm/particles.js"></script>
 
     <style>
+@media (max-width: 480px) {
+    #testimonials {
+        padding-top: 2.5rem;
+        padding-bottom: 2.5rem;
+    }
+    #testimonials .section-title {
+        font-size: 2rem;
+        margin-bottom: 1.2rem;
+    }
+}
+    /* Video background for dark mode only */
+    #bg-video {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        z-index: -1;
+        pointer-events: none;
+    }
+    body:not(.light-theme) #bg-video {
+        display: block;
+    }
         :root {
             --primary: #00ff8c;
             --primary-glow: #00ff8c44;
@@ -1051,7 +1076,7 @@ body.light-theme .hero-intro {
     }
     // Set initial theme button state on page load
     window.addEventListener('DOMContentLoaded', function() {
-        setTheme('light');
+    setTheme('dark');
     });
     </script>
 
@@ -1071,7 +1096,11 @@ body.light-theme .hero-intro {
 
 
 </head>
-<body class="light-theme">
+<body>
+    <video id="bg-video" autoplay muted loop playsinline>
+        <source src="Images/bg-dark.mp4" type="video/mp4">
+        <!-- Add more <source> tags for other formats if needed -->
+    </video>
     <nav class="navbar">
         <div id="theme-toggle-group" style="position: absolute; right: 1.5rem; top: 1.2rem; z-index: 2000; display: flex; gap: 0.5rem;">
             <button id="dark-btn" onclick="setTheme('dark')" style="padding: 0.3rem 0.8rem; border-radius: 8px; border: none; background: #232526; color: #fff; font-weight: 600; cursor: pointer; opacity: 1; outline: 2px solid #fff;">Dark</button>
@@ -1131,8 +1160,8 @@ body.light-theme .hero-intro {
                 <div class="skill-name">JavaScript</div>
             </div>
             <div class="card">
-                <img src="Images/Skills/ejs-logo.png" alt="EJS" style="width:60px;height:60px;object-fit:contain;margin:0 auto 1rem;">
-                <div class="skill-name">EJS</div>
+                <img src="Images/Skills/react.png" alt="EJS" style="width:60px;height:60px;object-fit:contain;margin:0 auto 1rem;">
+                <div class="skill-name">React</div>
             </div>
             <div class="card">
                 <img src="Images/Skills/nodejs-logo.png" alt="Node.js" style="width:60px;height:60px;object-fit:contain;margin:0 auto 1rem;">
@@ -1174,10 +1203,6 @@ body.light-theme .hero-intro {
                 <img src="Images/Skills/c-logo.png" alt="C/C++" style="width:60px;height:60px;object-fit:contain;margin:0 auto 1rem;">
                 <div class="skill-name">C/C++</div>
             </div>
-            <div class="card">
-                <img src="Images/Skills/excel-logo.png" alt="MS Excel" style="width:60px;height:60px;object-fit:contain;margin:0 auto 1rem;">
-                <div class="skill-name">MS Excel</div>
-            </div>
         </div>
         
     </section>
@@ -1199,26 +1224,6 @@ body.light-theme .hero-intro {
         <div class="card-grid">
             <div class="card">
                 <div class="project-img-wrap">
-                    <img src="Images/Projects/Fund Management System.jpg" alt="Student Grade Predictor" class="project-image">
-                </div>
-                <div class="project-title-wrap">
-                    <h3>Fund Management System</h3>
-                </div>
-                <div class="project-desc-wrap">
-                    <p>
-                        Built with Node.js, Express, MongoDB, and vanilla frontend to manage member savings, interest, and loans.
-                        Included features like member/loan CRUD, filtering, and transaction tracking.
-                    </p>
-                </div>
-                <div class="project-tags">
-                        <span class="tag tag-blue">#Node.js</span>
-                        <span class="tag tag-green">#MongoDB</span>
-                        <span class="tag tag-pink">#Express</span>
-                </div>
-            </div>
-
-            <div class="card">
-                <div class="project-img-wrap">
                     <img src="Images/Projects/Customer Management System.jpg" alt="User Management System" class="project-image">
                 </div>
                 <div class="project-title-wrap">
@@ -1231,30 +1236,52 @@ body.light-theme .hero-intro {
                     </p>
                 </div>
                 <div class="project-tags">
-                        <span class="tag tag-blue">#React.js</span>
-                        <span class="tag tag-pink">#Node.js</span>
                         <span class="tag tag-green">#MongoDB</span>
                         <span class="tag tag-violet">#Express.js</span>
+                        <span class="tag tag-pink">#Node.js</span>
                 </div>
             </div>
 
             <div class="card">
                 <div class="project-img-wrap">
-                    <img src="Images/Projects/Portfolio Website2.jpg" alt="User Management System" class="project-image">
+                    <img src="Images/Projects/Auth & Access Management System.jpg" alt="Student Grade Predictor" class="project-image">
                 </div>
                 <div class="project-title-wrap">
-                    <h3>Portfolio Website</h3>
+                    <h3>MERN Authentication System</h3>
                 </div>
                 <div class="project-desc-wrap">
                     <p>
-                        Created a fully responsive portfolio using HTML, CSS, and JS with sections like Home, Skills, Projects, and Contact. 
-                        Designed to showcase the client's professional profile and achievements.
+                        Built a secure MERN-based authentication system with JWT, role-based access control, OTP verification, 
+                        and password/email workflows, ensuring strong security and user management. 
+                        Delivered a responsive UI using React, Tailwind CSS, and real-time feedback with React Toastify.
                     </p>
                 </div>
                 <div class="project-tags">
-                        <span class="tag tag-blue">#HTML</span>
-                        <span class="tag tag-pink">#CSS</span>
-                        <span class="tag tag-green">#JavaScript</span>
+                        <span class="tag tag-green">#MongoDB</span>
+                        <span class="tag tag-pink">#Express</span>
+                        <span class="tag tag-blue">#React.js</span>
+                        <span class="tag tag-blue">#Node.js</span>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="project-img-wrap">
+                    <img src="Images/Projects/Chat App.jpg" alt="User Management System" class="project-image">
+                </div>
+                <div class="project-title-wrap">
+                    <h3>Real-Time Chat App</h3>
+                </div>
+                <div class="project-desc-wrap">
+                    <p>
+                        Developed a real-time chat app using MERN and Socket.io with JWT-secured login, 
+                        chat rooms, live updates, and notifications. Designed a responsive, modern UI with Tailwind CSS for seamless communication.
+                    </p>
+                </div>
+                <div class="project-tags">
+                        <span class="tag tag-green">#MongoDB</span>
+                        <span class="tag tag-pink">#Express</span>
+                        <span class="tag tag-blue">#React.js</span>
+                        <span class="tag tag-blue">#Node.js</span>
                 </div>
             </div>
 
