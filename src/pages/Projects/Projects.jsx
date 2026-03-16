@@ -5,45 +5,35 @@ import PropTypes from "prop-types";
 
 const projects = [
   {
-    title: "Olova! A Lightweight JavaScript Library",
+    title: "Chatty! A Real-Time Chat Application",
     description:
-      "A lightweight JavaScript library for creating beautiful, responsive UI components.",
+      "A real-time chat application built with Socket.io for seamless communication.",
     src: "rock.jpg",
-    link: "https://i.postimg.cc/DwgWTfP0/Annotation-2025-03-19-113338.png",
-    color: "#5196fd",
-    githubLink: "https://github.com/olovajs/olova",
-    liveLink: "https://olova.js.org/",
-  },
-  {
-    title: "A sleek portfolio built with React and Tailwind CSS ",
-    description:
-      "A sleek portfolio built with React and Tailwind CSS to showcase your skills, projects, and experience in a modern design.",
-    src: "tree.jpg",
-    link: "https://i.postimg.cc/J75CKyrs/Annotation-2025-04-01-203959.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/seraprogrammer/portfolio",
-    liveLink: "https://codervai.vercel.app",
-  },
-  {
-    title: "🚀 CodeWhisperer",
-    description:
-      "🚀 CodeWhisperer A powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "water.jpg",
-    link: "https://i.postimg.cc/J4jPVFY0/Annotation-2025-04-01-204723.png",
-    color: "#fff",
-    githubLink: "https://github.com/seraprogrammer/codewhisperer",
-    liveLink: "https://codewhisperer.vercel.app/",
-  },
-  {
-    title: "CodeKori 🔥",
-    description:
-      "CodeKori is a powerful online code editor built with React and Tailwind CSS. Featuring real-time code execution, syntax highlighting, multi-language support, and a sleek UI. Start coding instantly! 💻✨",
-    src: "house.jpg",
-    link: "https://i.postimg.cc/cHQr4fpR/Annotation-2025-04-01-205350.png",
+    link: "https://res.cloudinary.com/dohhxegl9/image/upload/v1773405101/Chat_qcczwz.png",
     color: "#ed649e",
-    githubLink: "https://github.com/seraprogrammer/CodeKori",
-    liveLink: "https://codekori.js.org",
+    githubLink: "https://github.com/aniketroy9172014/Realtime-Chat-App",
+    liveLink: "https://realtime-chat-app-as40.onrender.com",
   },
+  {
+    title: "MERN Auth! A Authentication System",
+    description:
+      "An authentication system built with MERN and JWT token with the feature of 2-step verification.",
+    src: "tree.jpg",
+    link: "https://res.cloudinary.com/dohhxegl9/image/upload/v1773406194/AUTH_vbwvrt.png",
+    color: "#8f89ff",
+    githubLink: "https://github.com/aniketroy9172014/MERN-Authentication-System",
+    liveLink: "#",
+  },
+  {
+    title: "Job Buddy! A Job Recommendation System",
+    description:
+      "A ML-powered job recommendation system that finds best matching jobs after analyzing users resume with NLP.",
+    src: "../../assets/images/JRS.png",
+    link: "https://res.cloudinary.com/dohhxegl9/image/upload/v1773404308/JRS_wnl1l8.png",
+    color: "#fff",
+    githubLink: "https://github.com/aniketroy9172014/Job-Recomendation-System",
+    liveLink: "https://job-recomendation-system-xkhv.onrender.com/",
+  }
 ];
 
 export default function Projects() {

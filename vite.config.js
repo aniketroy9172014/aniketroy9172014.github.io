@@ -9,4 +9,8 @@ export default defineConfig({
       "@": path.resolve(__dirname, "./src"),
     },
   },
+  server: {
+    host: '0.0.0.0', // This allows the server to be accessed via your network IP
+    port: 5173,      // Ensure this matches your desired port
+  },
 });

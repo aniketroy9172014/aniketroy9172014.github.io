@@ -1,5 +1,5 @@
 import HeroImg from "@/assets/images/hero.jpg";
-import OlovaLogo from "@/assets/images/olova.png";
+import { MernIcon } from "@/components/MernIcon";
 
 export default function About() {
   return (
@@ -24,44 +24,40 @@ export default function About() {
 
             <div className="relative space-y-4">
               <p className="text-white">
-                Hello! I'm Nazmul Hossain, a passionate JavaScript developer
-                specializing in creating innovative web solutions and
+                Hello! I'm Aniket Roy, a passionate Full-stack Developer 
+                specializing in creating secure web solutions and 
                 user-friendly interfaces.{" "}
                 <span className="font-bold text-white">
-                  As the creator of the OlovaJS UI Framework
+                  As a Smart India Hackathon Finalist
                 </span>
-                , I'm dedicated to simplifying development workflows.
+                , I'm dedicated to delivering scalable, user-centric solutions 
+                that solve real-world problems.
               </p>
               <p className="text-white">
-                My focus is on making web development faster, easier, and
-                accessible to all developers. Currently, I'm expanding into
-                backend development to grow as a full-stack developer and create
-                seamless, robust web applications.
+                My focus is on making web applications faster, more secure, and 
+                highly reliable. Currently, I'm leveraging my expertise 
+                in the MERN stack and Python automation to build seamless, 
+                robust applications that empower businesses and users alike.
               </p>
 
               <div className="pt-6">
                 <blockquote className="border-l-4 border-gray-300 pl-4">
                   <p className="text-white">
-                    I'm a lifelong learner and innovator, driven by a desire to
-                    contribute to the developer community with new ideas and
-                    tools that deliver real value. As the creator of OlovaJS,
-                    I'm pushing the boundaries of JavaScript frameworks to
-                    empower developers worldwide.
+                    I'm a lifelong learner and innovator, driven by a desire to 
+                    contribute to the developer community with secure architecture 
+                    and tools that deliver real value. From optimizing 
+                    platform stability to engineering real-time messaging systems, 
+                    I'm pushing the boundaries of full-stack development to 
+                    deliver high-impact results.
                   </p>
 
                   <div className="mt-6 space-y-3">
                     <cite className="block font-medium text-white">
-                      Nazmul Hossain, Creator of
+                      Aniket Roy, Associate Software Engineer
                     </cite>
-                    <div className="flex items-center gap-2">
-                      <img
-                        className="h-5 w-fit"
-                        src={OlovaLogo}
-                        alt="Olova Logo"
-                        height="20"
-                        width="auto"
-                      />
-                      <span className="text-white">OlovaJS</span>
+                    <div className="flex flex-col gap-2">
+                       <span className="text-xs text-zinc-500 uppercase tracking-widest">Tech Stack</span>
+                       <MernIcon />
                     </div>
                   </div>
                 </blockquote>

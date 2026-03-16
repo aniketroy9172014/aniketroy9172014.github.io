@@ -15,24 +15,44 @@ const EducationSection = () => {
 
   const educationData = [
     {
-      degree: "Secondary School Certificate (SSC)",
-      school: "Natore Textile Institute",
-      mascot: "📘",
-      year: "2019-2021",
-      achievements: ["GPA: 4.89", "Subject: Science"],
-      skills: ["Mathematics", "Physics", "Chemistry", "Biology"],
+      degree: "Master of Computer Applications (MCA)",
+      school: "B.C. Roy Engineering College",
+      mascot: "🎓",
+      year: "2023-2025",
+      achievements: ["GPA: 8.0", "Subject: Computer Applications"],
+      skills: ["Advanced Programming", "Machine Learning", "Web Development", "Software Engineering"],
       description:
-        "Focused on core science subjects with emphasis on practical laboratory work and scientific research methodologies.",
+        "Focused on advanced computing concepts including software engineering, machine learning, and full-stack development while building real-world projects.",
+    },
+    {
+      degree: "Bachelor of Commerce (B.Com)",
+      school: "IGNOU",
+      mascot: "📚",
+      year: "2019-2023",
+      achievements: ["GPA: 7.1", "Subject: Commerce"],
+      skills: ["Accounting", "Marketing", "Finance", "Business Law"],
+      description:
+        "Studied core commerce subjects while gaining practical insights into accounting, marketing, and finance principles.",
     },
     {
       degree: "Higher Secondary Certificate (HSC)",
-      school: "Dottopara Model Degree College",
+      school: "Kanksa High School",
       mascot: "📗",
-      year: "2021-2023",
-      achievements: ["GPA: 4.25", "Subject: Arts"],
-      skills: ["Literature", "Social Studies", "Economics", "History"],
+      year: "2017-2019",
+      achievements: ["GPA: 6.5", "Subject: Commerce"],
+      skills: ["Accountancy", "Business Studies", "Economics", "Income Tax"],
       description:
-        "Developed strong analytical and critical thinking skills through comprehensive study of humanities and social sciences.",
+        "Developed strong Economics and Business skills through comprehensive study of Income Tax and related subjects.",
+    },
+    {
+      degree: "School Secondary Certificate (SSC)",
+      school: "RKAV High School",
+      mascot: "📘",
+      year: "2016-2017",
+      achievements: ["GPA: 6.5", "Subject: All"],
+      skills: ["Mathematics", "Science", "History", "Geography"],
+      description:
+        "Focused on core science and mathematics subjects along with social studies.",
     },
   ];
 

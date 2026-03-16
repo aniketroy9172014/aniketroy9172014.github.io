@@ -54,29 +54,21 @@ const ExperienceCard = ({
 const ExperienceSection = () => {
   const experiences = [
     {
-      icon: Network,
-      title: "WordPress Developer",
-      company: "Fiverr",
-      period: "2019 - 2020",
+      icon: Code2,
+      title: "Associate Software Engineer",
+      company: "Toolsvilla",
+      period: "2025 - Present",
       description:
-        "Worked on developing and customizing WordPress websites for clients globally.",
+        "Contributed to developing e-commerce modules with Node.js and JavaScript.",
     },
     {
       icon: Layers,
-      title: "Junior Frontend Developer",
-      company: "Sera Programmer",
-      period: "2021 - 2023",
+      title: "Frontend Developer (Intern)",
+      company: "CodeSpeedy Pvt Ltd",
+      period: "2024 - 2024",
       description:
         "Assisted in building and optimizing user interfaces with a focus on responsive and interactive designs.",
-    },
-    {
-      icon: Code2,
-      title: "JavaScript Developer",
-      company: "OlovJS (Sera Programmer)",
-      period: "2023 - Present",
-      description:
-        "Contributed to developing JavaScript libraries and enhancing framework functionalities.",
-    },
+    }
   ];
 
   return (
