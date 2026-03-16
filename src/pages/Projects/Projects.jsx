@@ -15,14 +15,14 @@ const projects = [
     liveLink: "https://realtime-chat-app-as40.onrender.com",
   },
   {
-    title: "MERN Auth! A Authentication System",
+    title: "CodeSync! An Interview Platform",
     description:
-      "An authentication system built with MERN and JWT token with the feature of 2-step verification.",
+      "An video calling Interview Platform with code interview, screen sharing, screen recording and many more features.",
     src: "tree.jpg",
-    link: "https://res.cloudinary.com/dohhxegl9/image/upload/v1773406194/AUTH_vbwvrt.png",
-    color: "#8f89ff",
-    githubLink: "https://github.com/aniketroy9172014/MERN-Authentication-System",
-    liveLink: "#",
+    link: "https://res.cloudinary.com/dohhxegl9/image/upload/v1773684184/interview_axewcb.png",
+    color: "#2e8b57",
+    githubLink: "https://github.com/aniketroy9172014/Interview-Platform",
+    liveLink: "https://interview-platform-two-psi.vercel.app/",
   },
   {
     title: "Job Buddy! A Job Recommendation System",
