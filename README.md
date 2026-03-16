@@ -20,7 +20,7 @@ Welcome to my **professional portfolio**! I am a **Full-stack Developer** and **
 ## 🚀 Live Preview
 
 Check out the live version of my portfolio here:  
-[**View Live Demo**](https://github.com/aniketroy9172014/aniketroy9172014.github.io)
+[**View Live Demo**](https://aniketroy9172014.github.io/)
 
 ---
 
