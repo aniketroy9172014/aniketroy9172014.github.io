@@ -20,7 +20,7 @@ Welcome to my **professional portfolio**! I am a **Full-stack Developer** and **
 ## 🚀 Live Preview
 
 Check out the live version of my portfolio here:  
-[**View Live Demo**](https://codervai.vercel.app/)
+[**View Live Demo**](https://github.com/aniketroy9172014/aniketroy9172014.github.io)
 
 ---
 
@@ -115,7 +115,7 @@ To run this project locally, ensure you have Node.js and Git installed.
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/your-username/portfolio.git
+   git clone https://github.com/aniketroy9172014/aniketroy9172014.github.io.git
    cd portfolio
    ```
 
